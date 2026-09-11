@@ -4,4 +4,3 @@ This U.S. Environmental Protection Agency (EPA)-funded, three-year collaborative
 
 The research connects controlled lysimeter and field experiments at UF/IFAS SWFREC in Immokalee with regional analysis of the Peace River watershed and Charlotte Harbor. Measurements of nutrient leaching, soil-water conditions, crop response, UAV-based crop health, and farm economics will be translated into watershed nutrient-load scenarios, machine-learning estimates of *Karenia brevis* red-tide risk, and an AI/LLM-supported decision tool for farmers and watershed managers. The project therefore links on-farm nutrient management → water quality → watershed nutrient delivery → coastal red-tide risk.
 ![framework](_static/img/project_framework.png)
-<img class="content-figure home-framework" src="_static/img/project_framework.png" alt="Integrated project framework linking the problem and hypothesis with lysimeter, field, watershed, and red-tide research scales">
