@@ -1,6 +1,6 @@
 # Project Team
 
-The team combines hydrology, agronomy, soil science, water quality, UAV remote sensing, watershed modeling, machine learning, uncertainty analysis, and humic-acid application expertise. The images below are placeholders and can be replaced with approved headshots later.
+The team combines hydrology, agronomy, soil science, water quality, UAV remote sensing, watershed modeling, machine learning, uncertainty analysis, and humic-acid application expertise. 
 
 
 <div class="team-list">
