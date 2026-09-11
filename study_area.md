@@ -1,6 +1,6 @@
 # Study Areas
 
-The project has two principal spatial components: the experimental site at UF/IFAS Southwest Florida Research and Education Center (SWFREC) in Immokalee** for the lysimeter and field studies, and the Peace River watershed for watershed-scale nutrient-load modeling and downstream red-tide scenario analysis.
+The project has two principal spatial components: the experimental site at UF/IFAS Southwest Florida Research and Education Center (SWFREC) in Immokalee for the lysimeter and field studies, and the Peace River watershed for watershed-scale nutrient-load modeling and downstream red-tide scenario analysis.
 
 ## Interactive Study Map
 
@@ -9,4 +9,4 @@ The project has two principal spatial components: the experimental site at UF/IF
 <button data-map-view="watershed" class="map-view">Watershed Site</button>
 </div>
 <div id="ha-map" class="interactive-map" aria-label="Interactive map of the experimental and watershed study areas"></div>
-<p class="map-note"><b>Map use:</b> scroll or use +/− to zoom, drag to pan, and use the layer control to switch between satellite imagery and streets. The pin marks the **exact experimental site at 26.4623990, -81.4422680**. Select **Experimental Site** to zoom directly to this point, or open the pin to verify the same location in Google Maps.</p>
+<p class="map-note"><b>Map use:</b> scroll or use +/− to zoom, drag to pan, and use the layer control to switch between satellite imagery and streets. Select Experimental Site to zoom directly to this point, or open the pin to verify the same location in Google Maps.</p>
