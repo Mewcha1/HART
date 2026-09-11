@@ -3,6 +3,7 @@ root: intro
 parts:
   - caption: Outlines
     chapters:
+      - file: home
       - file: study_area
       - file: research_program
       - file: team

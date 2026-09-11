@@ -15,7 +15,6 @@ The site uses the same three-part Jupyter Book layout as the earlier NBI project
 5. Project Outputs
 6. Events & Field Gallery
 
-Task 1, Task 2, and Task 3 are intentionally **not** separate left-navigation pages. They are section headings within Research Program, so they appear in the right-hand Contents panel.
 
 
 ## Experimental-site map coordinate
