@@ -4,7 +4,7 @@ parts:
   - caption: "Outlines"
     chapters:
       - file: study_area
-      - file: research_program
+      - file: research_program1
       - file: team
       - file: outputs
       - file: events_gallery
