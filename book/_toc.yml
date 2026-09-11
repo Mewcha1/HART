@@ -1,0 +1,23 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Project
+    chapters:
+      - file: project_overview
+      - file: study_area
+  - caption: Research Program
+    chapters:
+      - file: research/index
+        sections:
+          - file: research/task1
+          - file: research/task2
+          - file: research/task3
+  - caption: Implementation
+    chapters:
+      - file: quality_data
+      - file: progress
+      - file: team
+  - caption: Outputs & Engagement
+    chapters:
+      - file: outputs
+      - file: events_gallery

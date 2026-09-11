@@ -1,0 +1,37 @@
+title: "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation"
+author: "Florida Gulf Coast University · University of Florida/IFAS · Florida State University"
+copyright: "2026"
+logo: _static/img/project_logo.svg
+exclude_patterns: [_build, Thumbs.db, .DS_Store]
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: off
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - deflist
+    - html_admonition
+    - html_image
+    - substitution
+
+repository:
+  url: https://github.com/Mewcha1/Humic-Acid-Red-Tide
+  branch: main
+  path_to_book: book
+
+html:
+  favicon: _static/img/favicon.svg
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: true
+  extra_footer: |
+    <div class="ha-footer">Research collaboration: FGCU · UF/IFAS · FSU &nbsp;|&nbsp; Project period: 2026–2029</div>
+
+sphinx:
+  config:
+    html_js_files:
+      - custom.js
+    html_show_sourcelink: false

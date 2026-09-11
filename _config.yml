@@ -1,0 +1,33 @@
+﻿title: "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation"
+author: "FGCU Â· UF/IFAS Â· FSU"
+logo: _static/img/logo.svg
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: "off"
+
+html:
+  favicon: _static/img/favicon.svg
+  use_repository_button: true
+  use_edit_page_button: false
+  use_issues_button: false
+  extra_footer: "Project website Â· Florida Gulf Coast University and collaborators"
+
+repository:
+  url: https://github.com/Mewcha1/HART
+  path_to_book: .
+  branch: main
+
+sphinx:
+  config:
+    html_show_copyright: false
+    html_theme_options:
+      toc_title: "Contents"
+      show_toc_level: 2
+      show_prev_next: true
+      navigation_with_keys: true
+    html_css_files:
+      - custom.css
+    html_js_files:
+      - custom_v8.js
+

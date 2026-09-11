@@ -1,0 +1,10 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Outlines
+    chapters:
+      - file: study_area
+      - file: research_program
+      - file: team
+      - file: outputs
+      - file: events_gallery
