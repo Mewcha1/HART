@@ -1,6 +1,6 @@
 # Research Program
 
-The research is designed as one connected **scale-up experiment**. Evidence is first measured under controlled field conditions, then tested under production-scale conditions, and finally translated to watershed and coastal consequences.
+The research is designed as one connected scale-up experiment. Evidence is first measured under controlled field conditions, then tested under production-scale conditions, and finally translated to watershed and coastal consequences.
 
 ### Research pathway
 
@@ -54,7 +54,7 @@ Does the nutrient-reduction strategy remain effective under field-scale tomato p
 **Research process:**  
 **Conventional practice** ↔ **HA + reduced nutrients** → **Water + crop + economic response**
 
-The field experiment at UF/IFAS SWFREC compares standard nutrient management with HA under reduced nutrient input. Soil and shallow-groundwater observations are combined with UAV hyperspectral imagery, tomato yield and fruit-quality measurements, and farm-level economic analysis.
+The field experiment at UF/IFAS compares standard nutrient management with HA under reduced nutrient input. Soil and shallow-groundwater observations are combined with UAV hyperspectral imagery, tomato yield and fruit-quality measurements, and farm-level economic analysis.
 
 **Core evidence:**  
 soil condition • shallow groundwater • UAV crop health • yield & quality • fertilizer savings • return on investment
@@ -85,8 +85,8 @@ TN & TP load change • sensitivity & uncertainty • bloom probability/frequenc
 
 | Research scale | Main question |
 |---|---|
-| **Task 1 — Lysimeter** | What changes in the root zone? |
-| **Task 2 — Field** | Does it work at farm scale? |
-| **Task 3 — Watershed & Coast** | What does it mean for the watershed and coast? |
+| Task 1 — Lysimeter | What changes in the root zone? |
+| Task 2 — Field | Does it work at farm scale? |
+| Task 3 — Watershed & Coast | What does it mean for the watershed and coast? |
 
 **Task 1** → **Task 2** → **Task 3**
