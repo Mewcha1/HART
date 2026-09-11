@@ -67,3 +67,40 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 .home-framework{margin-top:1.6rem}
 @media(max-width:900px){.research-route{grid-template-columns:1fr}.research-route:before{left:24px;right:auto;top:8%;bottom:8%;width:2px;height:auto}.research-route-node{border-radius:12px}.route-arrow{transform:rotate(90deg);justify-self:center}.research-story,.research-story-right{grid-template-columns:1fr}.research-story-right .research-story-copy{order:2}.research-story-right .research-story-visual{order:1}.research-connection{grid-template-columns:1fr}.research-connection i{transform:rotate(90deg);justify-self:center}}
 .research-route-node.active{box-shadow:0 0 0 2px var(--ha-green),0 7px 18px rgba(31,72,59,.12)}
+/* ---------------------------------------------------------
+   Left sidebar: compact width and Home label below logo
+   --------------------------------------------------------- */
+
+/* Logo area */
+.bd-sidebar-primary .navbar-brand {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    padding: 0.35rem 0 0.65rem;
+}
+
+/* Logo size */
+.bd-sidebar-primary .navbar-brand img {
+    max-height: 58px !important;
+    width: auto;
+    margin: 0 auto;
+}
+
+/* Add Home underneath the logo */
+.bd-sidebar-primary .navbar-brand::after {
+    content: "Home";
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #173d34;
+    text-align: center;
+}
+
+/* Slightly reduce horizontal padding in the sidebar */
+.bd-sidebar-primary {
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+}
