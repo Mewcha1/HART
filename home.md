@@ -1,4 +1,4 @@
-# Home
+# Using Humic Acid for Nutrient Reduction and Red Tide Mitigation
 
 This U.S. Environmental Protection Agency (EPA)-funded, three-year collaborative research and demonstration project brings together Florida Gulf Coast University (FGCU), the University of Florida/IFAS (UF/IFAS), and Florida State University (FSU) to evaluate humic acid (HA) as an agricultural soil conditioner for Southwest Florida. The project tests whether HA can improve nutrient and water retention in sandy soils, allowing nitrogen and phosphorus fertilizer inputs to be reduced while maintaining or improving tomato production and limiting nutrient losses to groundwater and surface water.
 
