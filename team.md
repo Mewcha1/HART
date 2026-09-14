@@ -12,18 +12,20 @@ The team combines hydrology, agronomy, soil science, water quality, UAV remote s
 
 <div class="team-person"><img src="_static/img/team/nt.svg"><div><h3><a href="https://ask.ifas.ufl.edu/experts/ntziolas" target="_blank" rel="noopener noreferrer">Nikolaos Tziolas</a></h3><p><b>UF/IFAS</b><br>Soil science, agronomy, Immokalee field implementation, UAV/Earth observation, and AI integration.</p></div></div>
 
-<div class="team-person"><img src="_static/img/team/mg.svg"><div><h3><a href="https://www.fgcu.edu/eng/facultystaff/" target="_blank" rel="noopener noreferrer">Mewcha Gebremedhin</a></h3><p><b>FGCU</b><br>Field instrumentation and monitoring, hydrogeologic characterization, groundwater–surface-water interaction, and analysis.</p></div></div>
+<div class="team-person"><img src="_static/img/team/mg.svg"><div><h3><a href="https://www.fgcu.edu/directory/mgebremedhin" target="_blank" rel="noopener noreferrer">Mewcha Gebremedhin</a></h3><p><b>FGCU</b><br>Field instrumentation and monitoring, hydrogeologic characterization, groundwater–surface-water interaction, and analysis.</p></div></div>
 
 <div class="team-person"><img src="_static/img/team/sm.png"><div><h3><a href="https://ask.ifas.ufl.edu/experts/suraj.melkani" target="_blank" rel="noopener noreferrer">Suraj Melkani</a></h3><p><b>FGCU</b><br>Soil science, agronomy, Immokalee field implementation, UAV/Earth observation, and AI integration.</p></div></div>
                                                                                                                            
-<div class="team-person"><img src="_static/img/team/aw.svg"><div><h3><a href="https://www.omri.org/mfg/arc" target="_blank" rel="noopener noreferrer">Dr. Daman Walia</a></h3><p><b>Collaborator · ARCTECH Inc.</b><br>Humic-acid applications for nutrient management, water-quality improvement, and farm profitability.</p></div></div>
+<div class="team-person"><img src="_static/img/team/aw.svg"><div><h3>Dr. Daman Walia</h3><p><b>Collaborator · ARCTECH Inc.</b><br>Humic-acid applications for nutrient management, water-quality improvement, and farm profitability.</p></div></div>
 </div>
 
 ## Student researchers
 
 <div class="team-list compact">
-<div class="team-person"><img src="_static/img/team/gb.svg"><div><h3><a href="https://www.linkedin.com/in/george-bouch-9695012b0" target="_blank" rel="noopener noreferrer">George Bouch</a></h3><p><b>Graduate Research Assistant · FGCU</b><br>Supports the lysimeter experiment.</p></div></div>
-<div class="team-person"><img src="_static/img/team/zh.svg"><div><h3><a href="https://www.fgcu.edu/eng/student-involvement/wce-day/" target="_blank" rel="noopener noreferrer">Zachary Hudson</a></h3><p><b>Graduate Research Assistant · FGCU</b><br>Supports hydrogeological characterization.</p></div></div>
+<div class="team-person"><img src="_static/img/team/gb.svg"><div><h3>George Bouch</h3><p><b>Graduate Research Assistant · FGCU</b><br>Supports the lysimeter experiment.</p></div></div>
+<div class="team-person"><img src="_static/img/team/zh.svg"><div><h3>Zachary Hudson</h3><p><b>Graduate Research Assistant · FGCU</b><br>Supports hydrogeological characterization.</p></div></div>
 </div>
+
+
 
 
