@@ -9,6 +9,7 @@ The team combines hydrology, agronomy, soil science, water quality, UAV remote s
 <div class="team-person"><img src="_static/img/team/my.svg"><div><h3>Ming Ye</h3><p><b>FSU</b><br>Hydrology, water quality, computational modeling, uncertainty analysis, and machine learning.</p></div></div>
 <div class="team-person"><img src="_static/img/team/nt.svg"><div><h3>Nikolaos Tziolas</h3><p><b>UF/IFAS</b><br>Soil science, agronomy, Immokalee field implementation, UAV/Earth observation, and AI integration.</p></div></div>
 <div class="team-person"><img src="_static/img/team/mg.svg"><div><h3>Mewcha Gebremedhin</h3><p><b>FGCU</b><br>Field instrumentation and monitoring, hydrogeologic characterization, groundwater–surface-water interaction, and analysis.</p></div></div>
+<div class="team-person"><img src="_static/img/team/sm.png"><div><h3>Suraj Melkani</h3><p><b>FGCU</b><br>Soil science, agronomy, Immokalee field implementation, UAV/Earth observation, and AI integration.</p></div></div>
 <div class="team-person"><img src="_static/img/team/aw.svg"><div><h3>Dr. Daman Walia</h3><p><b>Collaborator · ARCTECH Inc.</b><br>Humic-acid applications for nutrient management, water-quality improvement, and farm profitability.</p></div></div>
 </div>
 
