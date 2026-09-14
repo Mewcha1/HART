@@ -10,9 +10,9 @@
 
 <div class="event-timeline">
 
-<div> <time>July 31, 2026</time> — <b><a href="static/slides/kickoff_meeting.pdf">Project kickoff</a></b> — Project startup and partner coordination. </div>
+<div> <time>July 31, 2026</time> <b><a href="_static/slides/kickoff_meeting.pdf">Project kickoff</a></b> Project startup and partner coordination. </div>
 
-<div><time>Sep 8, 2026</time> — <b><a href="#planning-workshop">FGCU–UF planning workshop</a></b> — Schedule review, procurement updates, QAPP discussion, and site-selection planning. — <a href="_static/slides/workshop.pdf" download>Download slides</a></div>
+<div><time>Sep 8, 2026</time>  <b><a href="_static/slides/workshop.pdf">FGCU–UF planning workshop</a></b> Schedule review, procurement updates, QAPP discussion, and site-selection planning. </div>
 
 </div>
 
