@@ -104,3 +104,15 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     padding-left: 0.8rem !important;
     padding-right: 0.8rem !important;
 }
+/* Team member profile links */
+.team-person h3 a,
+.team-person h3 a:visited {
+    color: #0066cc !important;
+    text-decoration: none !important;
+}
+
+.team-person h3 a:hover,
+.team-person h3 a:focus {
+    color: #004a99 !important;
+    text-decoration: none !important;
+}
