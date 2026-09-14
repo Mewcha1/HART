@@ -12,5 +12,8 @@ The research connects controlled lysimeter and field experiments at UF/IFAS SWFR
 
 ![Logos](_static/img/Logos.png)
 
-                                                   ![Qrcode](_static/img/qrcode.png)
+```{image} _static/img/qrcode.png
+:alt: HART project website QR code
+:width: 160px
+:align: center
 
