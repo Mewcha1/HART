@@ -116,3 +116,13 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     color: #004a99 !important;
     text-decoration: none !important;
 }
+.event-timeline a,
+.event-timeline a:visited {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.event-timeline a:hover {
+    color: #004a99;
+    text-decoration: none;
+}
