@@ -11,3 +11,6 @@ The research connects controlled lysimeter and field experiments at UF/IFAS SWFR
 
 
 ![Logos](_static/img/Logos.png)
+
+![Qrcode](_static/img/qrcode.png)
+
