@@ -249,64 +249,68 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 
 
 /* =========================================================
-   GLOBAL HART TOP HEADER
+   HART TOP HEADER - FORCE TRUE CENTER ALIGNMENT
    ========================================================= */
 
 .bd-header {
-    background: linear-gradient(
-        90deg,
-        #eef5f2 0%,
-        #f4f8f6 55%,
-        #e8f2ee 100%
-    ) !important;
-
-    border-bottom: 1px solid #c9ddd5 !important;
+    position: relative !important;
+    min-height: 72px !important;
 }
 
 
-/* Persistent project title on every page */
-.bd-header::before {
-    content: "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation";
+/* Full-width centered title */
+.bd-header .hart-top-title {
+    position: absolute !important;
 
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    /* Fill the entire top bar */
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
 
-    font-size: 1.02rem;
-    font-weight: 600;
-    color: #173d34;
+    width: 100% !important;
+    height: 100% !important;
 
-    white-space: nowrap;
-    text-align: center;
+    /* Center horizontally and vertically */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 
-    pointer-events: none;
-    z-index: 1;
+    /* Remove older positioning */
+    transform: none !important;
+    margin: 0 !important;
+
+    /* Text */
+    text-align: center !important;
+    font-size: 1.45rem !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    color: #173d34 !important;
+
+    white-space: nowrap !important;
+
+    /* Leave controls clickable */
+    pointer-events: none !important;
+    z-index: 2 !important;
 }
 
 
-/* Keep header buttons clickable */
+/* Keep download/full-screen/dark-mode icons above title */
 .bd-header .navbar-header-items,
 .bd-header .navbar-header-items__start,
 .bd-header .navbar-header-items__end {
-    position: relative;
-    z-index: 2;
+    position: relative !important;
+    z-index: 5 !important;
 }
 
 
-/* Remove only the duplicate search from the top bar */
-.bd-header .search-button,
-.bd-header .search-button-field,
-.bd-header .search-button__button,
-.bd-header button[class*="search-button"] {
-    display: none !important;
-}
-
-
-/* Short title on smaller screens */
+/* Smaller screen */
 @media (max-width: 900px) {
-    .bd-header::before {
-        content: "HART Project";
-        font-size: 0.95rem;
+
+    .bd-header .hart-top-title {
+        font-size: 1.1rem !important;
+        white-space: normal !important;
+        padding-left: 70px !important;
+        padding-right: 70px !important;
     }
 }
