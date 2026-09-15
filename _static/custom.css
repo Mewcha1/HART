@@ -235,3 +235,11 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     background-color: #ffffff !important;
     border-color: #7fa99a !important;
 }
+
+
+/* Hide top-header search, keep sidebar search */
+.bd-header button.search-button,
+.bd-header .search-button,
+.bd-header .search-button__button {
+    display: none !important;
+}
