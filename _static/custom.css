@@ -135,3 +135,103 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     font-weight: 600 !important;
     color: #173d34 !important;
 }
+
+
+
+
+/* =========================================================
+   TOP HEADER BAR
+   ========================================================= */
+
+.bd-header {
+    background: linear-gradient(
+        90deg,
+        #eef5f2 0%,
+        #f4f8f6 55%,
+        #e8f2ee 100%
+    ) !important;
+
+    border-bottom: 1px solid #c9ddd5 !important;
+}
+
+/* Keep elements inside the header transparent */
+.bd-header .navbar-header-items,
+.bd-header .navbar-header-items__start,
+.bd-header .navbar-header-items__center,
+.bd-header .navbar-header-items__end {
+    background: transparent !important;
+}
+
+
+/* =========================================================
+   LEFT SIDEBAR
+   ========================================================= */
+
+.bd-sidebar-primary,
+.bd-sidebar-primary.bd-sidebar {
+    background: linear-gradient(
+        180deg,
+        #f3f8f6 0%,
+        #eaf3ef 100%
+    ) !important;
+
+    border-right: 1px solid #c9ddd5 !important;
+}
+
+/* Make inner sidebar containers use the same background */
+.bd-sidebar-primary .sidebar-primary-items__start,
+.bd-sidebar-primary .sidebar-primary-items__end,
+.bd-sidebar-primary nav.bd-links {
+    background: transparent !important;
+}
+
+
+/* =========================================================
+   INTERACTIVE SIDEBAR LINKS
+   ========================================================= */
+
+.bd-sidebar-primary .bd-links a.reference.internal,
+.bd-sidebar-primary .toctree-l1 > a {
+    padding: 0.38rem 0.55rem !important;
+    border-radius: 6px;
+    transition:
+        background-color 0.18s ease,
+        color 0.18s ease,
+        padding-left 0.18s ease;
+}
+
+/* Mouse hover */
+.bd-sidebar-primary .bd-links a.reference.internal:hover,
+.bd-sidebar-primary .toctree-l1 > a:hover {
+    background-color: #dcece5 !important;
+    color: #173d34 !important;
+    padding-left: 0.75rem !important;
+}
+
+/* Current/selected page */
+.bd-sidebar-primary .current > a,
+.bd-sidebar-primary a.current,
+.bd-sidebar-primary .active > a {
+    background-color: #d4e8df !important;
+    color: #173d34 !important;
+    font-weight: 600 !important;
+}
+
+
+/* =========================================================
+   SEARCH BOX
+   ========================================================= */
+
+.bd-header button.search-button,
+.bd-sidebar-primary button.search-button {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border: 1px solid #bfd2ca !important;
+    transition: background-color 0.18s ease,
+                border-color 0.18s ease;
+}
+
+.bd-header button.search-button:hover,
+.bd-sidebar-primary button.search-button:hover {
+    background-color: #ffffff !important;
+    border-color: #7fa99a !important;
+}
