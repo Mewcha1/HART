@@ -245,10 +245,25 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 }
 
 
-/* =========================================================
-   PROJECT TITLE IN TOP BAR
-   ========================================================= */
 
+/* Top bar background */
+.bd-header {
+    background: linear-gradient(
+        90deg,
+        #eef5f2 0%,
+        #f4f8f6 55%,
+        #e8f2ee 100%
+    ) !important;
+
+    border-bottom: 1px solid #c9ddd5 !important;
+}
+
+/* Remove duplicate top search */
+.bd-header .search-button {
+    display: none !important;
+}
+
+/* Full project title in top bar */
 .bd-header .navbar-header-items__center::before {
     content: "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation";
     display: block;
@@ -257,4 +272,12 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     color: #173d34;
     text-align: center;
     white-space: nowrap;
+}
+
+/* Short title on smaller screens */
+@media (max-width: 900px) {
+    .bd-header .navbar-header-items__center::before {
+        content: "HART Project";
+        font-size: 0.95rem;
+    }
 }
