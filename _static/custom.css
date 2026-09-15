@@ -74,10 +74,10 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 
 /* Narrow the whole sidebar */
 .bd-sidebar-primary.bd-sidebar {
-    width: 210px !important;
-    min-width: 210px !important;
-    max-width: 210px !important;
-    flex: 0 0 210px !important;
+    wi30h: 210px !important;
+    min-w30th: 210px !important;
+    max-30dth: 210px !important;
+    fl30: 0 0 210px !important;
 
     padding-left: 0.7rem !important;
     padding-right: 0.7rem !important;
@@ -116,6 +116,18 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     max-width: 100% !important;
 }
 
-.bd-main .bd-content .bd-article-container {
+.bd-main .bd-content .bd-artic
+
+
+/* Left sidebar text */
+.bd-sidebar-primary .bd-links .nav-link {
+    font-size: 1.08rem !important;
+}
+
+/* "Outlines" heading */
+.bd-sidebar-primary .bd-links .caption {
+    font-size: 1.08rem !important;
+    font-weight: 600;
+}le-container {
     max-width: 100% !important;
 }
