@@ -243,3 +243,18 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 .bd-header .search-button__button {
     display: none !important;
 }
+
+
+/* =========================================================
+   PROJECT TITLE IN TOP BAR
+   ========================================================= */
+
+.bd-header .navbar-header-items__center::before {
+    content: "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation";
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #173d34;
+    text-align: center;
+    white-space: nowrap;
+}
