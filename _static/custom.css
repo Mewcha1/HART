@@ -120,14 +120,18 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     max-width: 100% !important;
 }
 
-/* Left sidebar navigation links */
-.bd-sidebar-primary .bd-links .nav-link {
-    font-size: 1.3rem !important;
-    font-weight: 500;
+/* Left sidebar page links */
+.bd-sidebar-primary nav.bd-links a,
+.bd-sidebar-primary .bd-links a.reference.internal,
+.bd-sidebar-primary .toctree-l1 > a {
+    font-size: 1.15rem !important;
+    font-weight: 500 !important;
+    color: #173d34 !important;
 }
 
 /* Outlines heading */
 .bd-sidebar-primary .bd-links .caption {
-    font-size: 1.3rem !important;
-    font-weight: 600;
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    color: #173d34 !important;
 }
