@@ -74,10 +74,10 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 
 /* Narrow the whole sidebar */
 .bd-sidebar-primary.bd-sidebar {
-    wi10h: 210px !important;
-    min-w10th: 210px !important;
-    max-10dth: 210px !important;
-    fl10: 0 0 210px !important;
+    width: 210px !important;
+    min-width: 210px !important;
+    max-width: 210px !important;
+    flex: 0 0 210px !important;
 
     padding-left: 0.7rem !important;
     padding-right: 0.7rem !important;
@@ -104,7 +104,7 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 .bd-sidebar-primary .navbar-brand::after {
     content: "Home";
     display: block;
-    m.3argin-top: 0.25rem;
+    margin-top: 0.25rem;
     font-size: 1rem;
     font-weight: 600;
     color: #173d34;
@@ -116,21 +116,6 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     max-width: 100% !important;
 }
 
-.bd-main .bd-content .bd-artic
-
-
-/* Left sidebar text */
-.bd-sidebar-primary .bd-links .nav-link {
-    font-size: 1.5rem !important;
-    font-weight: 600;
-    color: #173d34;
-}
-
-/* "Outlines" heading */
-.bd-sidebar-primary .bd-links .caption {
-    font-size: 1.5rem !important;
-    font-weight: 600;
-    color: #173d34;
-}le-container {
+.bd-main .bd-content .bd-article-container {
     max-width: 100% !important;
 }
