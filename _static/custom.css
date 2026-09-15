@@ -119,3 +119,15 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 .bd-main .bd-content .bd-article-container {
     max-width: 100% !important;
 }
+
+/* Left sidebar navigation links */
+.bd-sidebar-primary .bd-links .nav-link {
+    font-size: 1.3rem !important;
+    font-weight: 500;
+}
+
+/* Outlines heading */
+.bd-sidebar-primary .bd-links .caption {
+    font-size: 1.3rem !important;
+    font-weight: 600;
+}
