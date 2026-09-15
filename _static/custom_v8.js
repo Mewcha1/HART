@@ -48,3 +48,19 @@ document.addEventListener('DOMContentLoaded',function(){initTabs();initAccordion
   }
   document.addEventListener('DOMContentLoaded',initResearchRoute);
 })();
+
+
+// Add HART project title to the top header
+(function () {
+    const header = document.querySelector(".bd-header");
+
+    if (header && !header.querySelector(".hart-header-title")) {
+        const title = document.createElement("div");
+
+        title.className = "hart-header-title";
+        title.textContent =
+            "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation";
+
+        header.appendChild(title);
+    }
+})();
