@@ -1,47 +1,28 @@
-/* Persistent HART title in the Jupyter Book top header.
-   Loaded globally through _config.yml. */
 (function () {
-  function addHartHeaderTitle() {
-    const header = document.querySelector("header.bd-header, .bd-header");
-    if (!header) return false;
 
-    const inner =
-      header.querySelector(".bd-header__inner") ||
-      header.querySelector(".navbar-header-items") ||
-      header;
+    function addHartHeaderTitle() {
 
-    if (inner.querySelector(".hart-top-title")) return true;
+        const header = document.querySelector(".bd-header");
 
-    const title = document.createElement("a");
-    title.className = "hart-top-title";
-    title.textContent =
-      "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation";
+        if (!header) return;
 
-    const brand = document.querySelector(
-      ".bd-sidebar-primary .navbar-brand, .navbar-brand"
-    );
-    title.href = brand && brand.href ? brand.href : "./";
-    title.setAttribute("aria-label", "HART home");
+        // Prevent duplicate title
+        if (header.querySelector(".hart-top-title")) return;
 
-    inner.appendChild(title);
-    return true;
-  }
+        const title = document.createElement("div");
 
-  function init() {
-    if (addHartHeaderTitle()) return;
+        title.className = "hart-top-title";
+        title.textContent =
+            "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation";
 
-    let attempts = 0;
-    const timer = window.setInterval(function () {
-      attempts += 1;
-      if (addHartHeaderTitle() || attempts >= 20) {
-        window.clearInterval(timer);
-      }
-    }, 100);
-  }
+        // Add directly to the global header
+        header.appendChild(title);
+    }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init, { once: true });
-  } else {
-    init();
-  }
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", addHartHeaderTitle);
+    } else {
+        addHartHeaderTitle();
+    }
+
 })();
