@@ -74,10 +74,10 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 
 /* Narrow the whole sidebar */
 .bd-sidebar-primary.bd-sidebar {
-    width: 210px !important;
-    min-width: 210px !important;
-    max-width: 210px !important;
-    flex: 0 0 210px !important;
+    width: 215px !important;
+    min-width: 215px !important;
+    max-width: 215px !important;
+    flex: 0 0 215px !important;
 
     padding-left: 0.7rem !important;
     padding-right: 0.7rem !important;
@@ -124,8 +124,8 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 .bd-sidebar-primary nav.bd-links a,
 .bd-sidebar-primary .bd-links a.reference.internal,
 .bd-sidebar-primary .toctree-l1 > a {
-    font-size: 1.15rem !important;
-    font-weight: 500 !important;
+    font-size: 1.05rem !important;
+    font-weight: 400 !important;
     color: #173d34 !important;
 }
 
