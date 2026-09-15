@@ -247,13 +247,12 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 
 
 
+
 /* =========================================================
-   HART TOP HEADER
+   GLOBAL HART TOP HEADER
    ========================================================= */
 
 .bd-header {
-    position: relative !important;
-
     background: linear-gradient(
         90deg,
         #eef5f2 0%,
@@ -262,18 +261,19 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     ) !important;
 
     border-bottom: 1px solid #c9ddd5 !important;
-    min-height: 58px;
 }
 
 
-/* Project title in header */
-.hart-header-title {
+/* Persistent project title on every page */
+.bd-header::before {
+    content: "Using Humic Acid for Nutrient Reduction and Red Tide Mitigation";
+
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 
-    font-size: 1.05rem;
+    font-size: 1.02rem;
     font-weight: 600;
     color: #173d34;
 
@@ -285,15 +285,8 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 }
 
 
-/* Hide ONLY the search control in the top header */
-.bd-header .search-button-field,
-.bd-header .search-button__button,
-.bd-header button[class*="search-button"] {
-    display: none !important;
-}
-
-
-/* Keep header controls above the title */
+/* Keep header buttons clickable */
+.bd-header .navbar-header-items,
 .bd-header .navbar-header-items__start,
 .bd-header .navbar-header-items__end {
     position: relative;
@@ -301,25 +294,19 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 }
 
 
-/* Smaller screens */
-@media (max-width: 900px) {
-
-    .hart-header-title {
-        font-size: 0.95rem;
-    }
+/* Remove only the duplicate search from the top bar */
+.bd-header .search-button,
+.bd-header .search-button-field,
+.bd-header .search-button__button,
+.bd-header button[class*="search-button"] {
+    display: none !important;
 }
 
 
-/* Phones: use short project name */
-@media (max-width: 650px) {
-
-    .hart-header-title {
-        font-size: 0;
-    }
-
-    .hart-header-title::after {
+/* Short title on smaller screens */
+@media (max-width: 900px) {
+    .bd-header::before {
         content: "HART Project";
         font-size: 0.95rem;
-        font-weight: 600;
     }
 }
