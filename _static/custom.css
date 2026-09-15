@@ -357,3 +357,22 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     fill: currentColor;
 }
 
+/* Team member names — blue, no underline */
+.team-person h3,
+.team-person h3 a,
+.team-person h3 a:link,
+.team-person h3 a:visited,
+.team-person h3 a:hover,
+.team-person h3 a:focus,
+.team-person h3 a:active,
+.team-person h3 a.reference.external {
+    color: #0066cc !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+
+.team-person h3 a:hover {
+    color: #004a99 !important;
+}
