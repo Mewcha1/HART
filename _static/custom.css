@@ -140,18 +140,33 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 
 
 /* =========================================================
-   TOP HEADER BAR
+   TOP HEADER BAR — WATER BLUE + RED-TIDE STREAKS
    ========================================================= */
 
 .bd-header {
-    background: linear-gradient(
-        90deg,
-        #eef5f2 0%,
-        #f4f8f6 55%,
-        #e8f2ee 100%
-    ) !important;
+    background:
+        linear-gradient(
+            108deg,
+            transparent 0%,
+            transparent 39%,
+            rgba(184, 62, 67, 0.20) 41%,
+            rgba(184, 62, 67, 0.20) 45%,
+            transparent 47%,
+            transparent 60%,
+            rgba(201, 76, 73, 0.24) 62%,
+            rgba(201, 76, 73, 0.24) 67%,
+            transparent 69%,
+            transparent 100%
+        ),
+        linear-gradient(
+            90deg,
+            #1f469b 0%,
+            #2755b5 35%,
+            #2d63c5 65%,
+            #244fa8 100%
+        ) !important;
 
-    border-bottom: 1px solid #c9ddd5 !important;
+    border-bottom: 2px solid #183777 !important;
 }
 
 /* Keep elements inside the header transparent */
@@ -283,9 +298,9 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     /* Text */
     text-align: center !important;
     font-size: 1.8rem !important;
-    font-weight: 800 !important;
+    font-weight: 700 !important;
     line-height: 1.2 !important;
-    color: #173d34 !important;
+    color: #ffffff !important;
 
     white-space: nowrap !important;
 
@@ -314,3 +329,31 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
         padding-right: 70px !important;
     }
 }
+
+/* =========================================================
+   FINAL HEADER COLOR / TITLE OVERRIDES
+   ========================================================= */
+
+.bd-header .hart-top-title {
+    color: #ffffff !important;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.30);
+}
+
+/* Keep header action icons visible on the blue background */
+.bd-header .navbar-header-items__start,
+.bd-header .navbar-header-items__end,
+.bd-header .navbar-header-items__start a,
+.bd-header .navbar-header-items__end a,
+.bd-header .navbar-header-items__start button,
+.bd-header .navbar-header-items__end button {
+    color: #ffffff !important;
+}
+
+.bd-header .navbar-header-items__start svg,
+.bd-header .navbar-header-items__end svg {
+    color: #ffffff !important;
+    fill: currentColor;
+}
+
