@@ -67,9 +67,21 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 .home-framework{margin-top:1.6rem}
 @media(max-width:900px){.research-route{grid-template-columns:1fr}.research-route:before{left:24px;right:auto;top:8%;bottom:8%;width:2px;height:auto}.research-route-node{border-radius:12px}.route-arrow{transform:rotate(90deg);justify-self:center}.research-story,.research-story-right{grid-template-columns:1fr}.research-story-right .research-story-copy{order:2}.research-story-right .research-story-visual{order:1}.research-connection{grid-template-columns:1fr}.research-connection i{transform:rotate(90deg);justify-self:center}}
 .research-route-node.active{box-shadow:0 0 0 2px var(--ha-green),0 7px 18px rgba(31,72,59,.12)}
+
 /* ---------------------------------------------------------
-   Left sidebar: compact width and Home label below logo
+   Left sidebar
    --------------------------------------------------------- */
+
+/* Narrow the whole sidebar */
+.bd-sidebar-primary.bd-sidebar {
+    width: 210px !important;
+    min-width: 210px !important;
+    max-width: 210px !important;
+    flex: 0 0 210px !important;
+
+    padding-left: 0.7rem !important;
+    padding-right: 0.7rem !important;
+}
 
 /* Logo area */
 .bd-sidebar-primary .navbar-brand {
@@ -88,7 +100,7 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     margin: 0 auto;
 }
 
-/* Add Home underneath the logo */
+/* Home label */
 .bd-sidebar-primary .navbar-brand::after {
     content: "Home";
     display: block;
@@ -99,53 +111,11 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
     text-align: center;
 }
 
-/* Slightly reduce horizontal padding in the sidebar */
-.bd-sidebar-primary {
-    padding-left: 0.8rem !important;
-    padding-right: 0.8rem !important;
-}
-/* Team member profile links */
-.team-person h3 a,
-.team-person h3 a:visited {
-    color: #0066cc !important;
-    text-decoration: none !important;
+/* Let the page use the width released by the sidebar */
+.bd-container__inner.bd-page-width {
+    max-width: 100% !important;
 }
 
-.team-person h3 a:hover,
-.team-person h3 a:focus {
-    color: #004a99 !important;
-    text-decoration: none !important;
-}
-.event-timeline a,
-.event-timeline a:visited {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.event-timeline a:hover {
-    color: #004a99;
-    text-decoration: none;
-}
-/* ---------------------------------------------------------
-   Left sidebar: compact width and Home label below logo
-   --------------------------------------------------------- */
-
-/* Logo area */
-.bd-sidebar-primary .navbar-brand {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none !important;
-    padding: 0.35rem 0 0.65rem;
-}
-
-/* Narrow the whole left sidebar */
-.bd-sidebar-primary {
-    width: 220px !important;
-    min-width: 220px !important;
-    max-width: 220px !important;
-    flex: 0 0 220px !important;
-    padding-left: 0.7rem !important;
-    padding-right: 0.7rem !important;
+.bd-main .bd-content .bd-article-container {
+    max-width: 100% !important;
 }
