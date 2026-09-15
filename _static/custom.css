@@ -74,10 +74,10 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 
 /* Narrow the whole sidebar */
 .bd-sidebar-primary.bd-sidebar {
-    wi30h: 210px !important;
-    min-w30th: 210px !important;
-    max-30dth: 210px !important;
-    fl30: 0 0 210px !important;
+    wi20h: 210px !important;
+    min-w20th: 210px !important;
+    max-20dth: 210px !important;
+    fl20: 0 0 210px !important;
 
     padding-left: 0.7rem !important;
     padding-right: 0.7rem !important;
@@ -121,12 +121,12 @@ h2{margin-top:2.1rem;border-bottom:1px solid var(--ha-line);padding-bottom:.35re
 
 /* Left sidebar text */
 .bd-sidebar-primary .bd-links .nav-link {
-    font-size: 1.08rem !important;
+    font-size: 1.5rem !important;
 }
 
 /* "Outlines" heading */
 .bd-sidebar-primary .bd-links .caption {
-    font-size: 1.08rem !important;
+    font-size: 1.5rem !important;
     font-weight: 600;
 }le-container {
     max-width: 100% !important;
