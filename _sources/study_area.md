@@ -1,6 +1,6 @@
 # Study Areas
 
-The project has two principal spatial components: the experimental site at UF/IFAS Southwest Florida Research and Education Center (SWFREC) in Immokalee for the lysimeter and field studies, and the Peace River watershed for watershed-scale nutrient-load modeling and downstream red-tide scenario analysis.
+The project has two principal spatial components: the experimental site at [UF/IFAS Southwest Florida Research and Education Center (SWFREC) in Immokalee](https://swfrec.ifas.ufl.edu/) for the lysimeter and field studies, and the Peace River watershed for watershed-scale nutrient-load modeling and downstream red-tide scenario analysis.
 
 ## Interactive Study Map
 

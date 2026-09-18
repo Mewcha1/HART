@@ -1,18 +1,18 @@
-# HART-WQ Project
-The humic acid for red tide and water quality (HART-WQ) project is a three-year collaborative research and demonstration initiative funded by the U.S. Environmental Protection Agency (EPA) and conducted by Florida Gulf Coast University (FGCU), the University of Florida/IFAS (UF/IFAS), and Florida State University (FSU). The project evaluates humic acid (HA) as a soil amendment for Southwest Florida agriculture, with the goal of improving nutrient and water retention in sandy soils while reducing nitrogen and phosphorus losses to groundwater and surface water.
+# Humic Acid for Nutrient Reduction and Red Tide Mitigation in Florida 
 
-The research follows a farm-to-watershed-to-coast approach. Lysimeter and field experiments at UF/IFAS SWFREC in Immokalee evaluate nutrient leaching, soil-water conditions, crop response, UAV-based crop health, and farm economics. Results are then scaled to the Peace River watershed and Charlotte Harbor to assess potential reductions in nutrient loads and their implications for *Karenia brevis* red-tide risk. The project also integrates watershed modeling, machine learning, and AI-supported decision tools to translate research findings into practical information for farmers and water-resource managers.
+The Humic Acid for Water Quality Project is a three-year research project funded by the [U.S. Environmental Protection Agency (EPA) – Innovative Solutions Projects](https://www.epa.gov/gulfofamerica/overview-innovative-solutions-projects-funded-fy26), and conducted by [Florida Gulf Coast University (FGCU)](https://www.fgcu.edu/eng/bioengineering-civilengineering-environmentalengineering),  [University of Florida (UF)](https://swfrec.ifas.ufl.edu/), and [Florida State University (FSU)](https://www.eoas.fsu.edu/).
+
+Humic acid is a natural soil conditioner that can improve nutrient and water retention, particularly in sandy soils with low nutrient-holding capacity. By retaining nutrients within the root zone, humic acid has the potential to reduce nitrogen and phosphorus leaching to groundwater and surface water. 
+
+This project evaluates humic acid as an innovative approach to reduce agricultural nutrient loads from Southwest Florida watersheds to coastal waters while improving farm profitability. The project integrates multiscale research spanning controlled lysimeter experiments, field trials on tomato farms, watershed-scale modeling of nitrogen and phosphorus loads, and machine learning to assess changes in red tide risk.
+
+A central goal is to determine whether humic acid can enable a 50% reduction in nitrogen and phosphorus fertilizer application while maintaining or improving crop yield and quality, reducing nutrient leaching, and lowering downstream nutrient loads and predicted red tide risk. The project also integrates AI-powered decision-support tools to translate project data into practical information for farmers, watershed managers, and other stakeholders.    
 
 
 ![framework](_static/img/project_framework.png)
-
-
+Humic acid for reducing nutrient loads and risk of harmful algal blooms. 
 
 
 ![Logos](_static/img/Logos.png)
 
-```{image} _static/img/qrcode.png
-:alt: HART project website QR code
-:width: 160px
-:align: center
 
