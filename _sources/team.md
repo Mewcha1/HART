@@ -1,18 +1,17 @@
 # Project Team
 
-The team combines hydrology, agronomy, soil science, water quality, UAV remote sensing, watershed modeling, machine learning, uncertainty analysis, and humic-acid application expertise. 
-
+The team combines expertise in agronomy, hydrology, soil science, and scientific computing. 
 
 <div class="team-list">
-<div class="team-person"><img src="_static/img/team/ae.svg"><div><h3><a href="https://www.fgcu.edu/directory/aelshall?list=1" target="_blank" rel="noopener noreferrer">Ahmed Elshall</a></h3><p><b>FGCU</b><br>Project leadership, groundwater hydrology, environmental data science, red-tide ML, and project integration.</p></div></div>
+<div class="team-person"><img src="_static/img/team/ae.svg"><div><h3><a href="https://www.fgcu.edu/directory/aelshall?list=1" target="_blank" rel="noopener noreferrer">Ahmed Elshall</a></h3><p><b>FGCU</b><br>Groundwater hydrology, red tide machine learning model development, environmental data science, and overall project management. </p></div></div>
     
-<div class="team-person"><img src="_static/img/team/st.svg"><div><h3><a href="https://www.fgcu.edu/directory/stsegaye" target="_blank" rel="noopener noreferrer">Seneshaw Tsegaye</a></h3><p><b>FGCU</b><br>Surface hydrology, watershed assessment and modeling, and Task 3 collaboration.</p></div></div>
+<div class="team-person"><img src="_static/img/team/st.svg"><div><h3><a href="https://www.fgcu.edu/directory/stsegaye" target="_blank" rel="noopener noreferrer">Seneshaw Tsegaye</a></h3><p><b>FGCU</b><br> surface hydrology, watershed modeling and water quality. </p></div></div>
 
-<div class="team-person"><img src="_static/img/team/my.svg"><div><h3><a href="https://atmos.eoas.fsu.edu/~mye/" target="_blank" rel="noopener noreferrer">Ming Ye</a></h3><p><b>FSU</b><br>Hydrology, water quality, computational modeling, uncertainty analysis, and machine learning.</p></div></div>
+<div class="team-person"><img src="_static/img/team/my.svg"><div><h3><a href="https://atmos.eoas.fsu.edu/~mye/" target="_blank" rel="noopener noreferrer">Ming Ye</a></h3><p><b>FSU</b><br>Groundwater hydrology, field hydrology, water quality and computational modeling and uncertainty analysis. </p></div></div>
 
-<div class="team-person"><img src="_static/img/team/nt.svg"><div><h3><a href="https://ask.ifas.ufl.edu/experts/ntziolas" target="_blank" rel="noopener noreferrer">Nikolaos Tziolas</a></h3><p><b>UF/IFAS</b><br>Soil science, agronomy, Immokalee field implementation, UAV/Earth observation, and AI integration.</p></div></div>
+<div class="team-person"><img src="_static/img/team/nt.svg"><div><h3><a href="https://ask.ifas.ufl.edu/experts/ntziolas" target="_blank" rel="noopener noreferrer">Nikolaos Tziolas</a></h3><p><b>UF/IFAS</b><br> Soil science, agronomy, and management of the lysimeter and field trial site in Immokalee and integration of AI techniques into environmental monitoring.</p></div></div>
 
-<div class="team-person"><img src="_static/img/team/mg.svg"><div><h3><a href="https://www.fgcu.edu/directory/mgebremedhin" target="_blank" rel="noopener noreferrer">Mewcha Gebremedhin</a></h3><p><b>FGCU</b><br>Field instrumentation and monitoring, hydrogeologic characterization, groundwater–surface-water interaction, and analysis.</p></div></div>
+<div class="team-person"><img src="_static/img/team/mg.svg"><div><h3><a href="https://www.fgcu.edu/directory/mgebremedhin" target="_blank" rel="noopener noreferrer">Mewcha Gebremedhin</a></h3><p><b>FGCU</b><br>Field instrumentation and monitoring, and integrate surface water-groundwater modeling.</p></div></div>
 
 <div class="team-person"><img src="_static/img/team/sm.png"><div><h3><a href="https://ask.ifas.ufl.edu/experts/suraj.melkani" target="_blank" rel="noopener noreferrer">Suraj Melkani</a></h3><p><b>FGCU</b><br>Soil science, agronomy, Immokalee field implementation, UAV/Earth observation, and AI integration.</p></div></div>
                                                                                                                            
