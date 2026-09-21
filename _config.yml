@@ -14,7 +14,7 @@ html:
   extra_footer: ""
 
 repository:
-  url: https://github.com/Mewcha1/HART
+  url: https://github.com/Mewcha1/ha
   path_to_book: .
   branch: main
 
