@@ -6,16 +6,18 @@ Humic acid is a natural soil conditioner that can improve nutrient and water ret
 
 This project evaluates humic acid as an innovative approach to reduce agricultural nutrient loads from Southwest Florida watersheds to coastal waters while improving farm profitability. The project integrates multiscale research spanning controlled lysimeter experiments, field trials on tomato farms, watershed-scale modeling of nitrogen and phosphorus loads, and machine learning to assess changes in red tide risk.
 
-A central goal is to determine whether humic acid can enable a 50% reduction in nitrogen and phosphorus fertilizer application while maintaining or improving crop yield and quality, reducing nutrient leaching, and lowering downstream nutrient loads and predicted red tide risk. The project also integrates AI-powered decision-support tools to translate project data into practical information for farmers, watershed managers, and other stakeholders.    
-
-
-![framework](_static/img/project_framework.png) 
-
-
+A central goal is to determine whether humic acid can enable a 50% reduction in nitrogen and phosphorus fertilizer application while maintaining or improving crop yield and quality, reducing nutrient leaching, and lowering downstream nutrient loads and predicted red tide risk. The project also integrates AI-powered decision-support tools to translate project data into practical information for farmers, watershed managers, and other stakeholders.   
 ```{image} _static/img/project_framework.png
 :alt: project_framework
 :align: center
 ```
+
+```{image} _static/img/Logos.png
+:alt: Logos
+:width: 300px
+:align: center
+```
+
 
 ![Logos](_static/img/Logos.png)
 
