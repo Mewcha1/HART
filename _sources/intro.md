@@ -12,8 +12,8 @@ A central goal is to determine whether humic acid can enable a 50% reduction in 
 ![framework](_static/img/project_framework.png) 
 
 
-```{image} _static/img/Logos.png
-:alt: Logos
+```{image} _static/img/project_framework.png
+:alt: project_framework
 :align: center
 ```
 
