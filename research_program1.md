@@ -4,13 +4,16 @@ The research is designed as one connected scale-up experiment. Evidence is first
 
 ## Task 1 — Lysimeter Scale
 Demonstrate at lysimeter scale the role humic acid in reducing leaching and improving water quality
-
-Image Task1a-e
+[Task1a](_static/img/task1a_treatments.png)
+[Task1a](_static/img/task1b_treatments.png)
+[Task1a](_static/img/task1c_treatments.png)
+[Task1a](_static/img/task1d_treatments.png)
+[Task1a](_static/img/task1e_treatments.png)
 
 ## Task 2 — Field Scale
 Demonstrate at field scale the efficacy of humic acid in  improving crop quality and reducing cost
+[Task2](_static/img/task2_field.png)
 
-Image Task2 
 
 Standard practice (100% nutrients) vs HA treatment (50% reduced nutrient input) under commercial agricultural conditions. 
 1. Soil health and water dynamics: Soil water content, pre- and post-harvest soil samples to analyze nutrient content, organic matter, and cation-exchange capacity.
@@ -23,7 +26,7 @@ Standard practice (100% nutrients) vs HA treatment (50% reduced nutrient input) 
 
 ## Task 3 — Watershed & Coast Scale 
 Demonstrate at watershed scale the efficacy of HA  in reducing nutrient input to the Gulf water and decreasing of the probability of red tide occurrence
-
+[Task3](_static/img/task3_modeling.png)
 Image Task3
 
 Upscale nutrient loads from tasks 1 and 2 to a watershed scale and estimate TN and TP output to the Gulf using process-based surface water models 
