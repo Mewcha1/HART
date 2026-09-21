@@ -10,10 +10,12 @@ A central goal is to determine whether humic acid can enable a 50% reduction in 
 
 
 ![framework](_static/img/project_framework.png) 
-<br>
 
-Humic acid for reducing nutrient loads and risk of harmful algal blooms. 
-</br>
+
+```{image} _static/img/Logos.png
+:alt: Logos
+:align: center
+```
 
 ![Logos](_static/img/Logos.png)
 
