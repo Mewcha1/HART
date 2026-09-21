@@ -9,9 +9,11 @@ This project evaluates humic acid as an innovative approach to reduce agricultur
 A central goal is to determine whether humic acid can enable a 50% reduction in nitrogen and phosphorus fertilizer application while maintaining or improving crop yield and quality, reducing nutrient leaching, and lowering downstream nutrient loads and predicted red tide risk. The project also integrates AI-powered decision-support tools to translate project data into practical information for farmers, watershed managers, and other stakeholders.    
 
 
-![framework](_static/img/project_framework.png)
-Humic acid for reducing nutrient loads and risk of harmful algal blooms. 
+![framework](_static/img/project_framework.png) 
+<br>
 
+Humic acid for reducing nutrient loads and risk of harmful algal blooms. 
+</br>
 
 ![Logos](_static/img/Logos.png)
 
