@@ -2,91 +2,38 @@
 
 The research is designed as one connected scale-up experiment. Evidence is first measured under controlled field conditions, then tested under production-scale conditions, and finally translated to watershed and coastal consequences.
 
-### Research pathway
-
-[**1. Lysimeter scale**](#task-1-lysimeter-scale)  
-*Measure the mechanism*
-
-↓  
-
-[**2. Field scale**](#task-2-field-scale)  
-*Validate in production*
-
-↓  
-
-[**3. Watershed & coast**](#task-3-watershed-coast)  
-*Scale the environmental impact*
-
-> **Research logic:** Measure nutrient retention and leaching → validate agronomic and water-quality performance → estimate watershed nutrient reduction and red-tide response.
-
----
-
-(task-1-lysimeter-scale)=
 ## Task 1 — Lysimeter Scale
+Demonstrate at lysimeter scale the role humic acid in reducing leaching and improving water quality
 
-![Conceptual illustration of the Task 1 lysimeter treatments](_static/img/task1_treatments.png)
+Image Task1a-e
 
-### Measure the mechanism
-
-**Research question:**  
-Can humic acid reduce nitrogen and phosphorus movement below the tomato root zone while supporting crop production?
-
-**Research process:**  
-**Four treatments** → **Suction-plate leachate + soil sensors** → **Nutrient-loss comparison**
-
-Three replicates are used for a background control, conventional 100% fertilizer, HA with 100% fertilizer, and HA with 50% fertilizer. Leachate chemistry is interpreted together with soil-water conditions, rainfall, irrigation, and crop response to quantify how HA changes nutrient retention and leaching.
-
-**Core evidence:**  
-TN & TP • nitrate/nitrite • ammonia • soluble reactive phosphorus • soil water • drainage • crop response
-
----
-
-(task-2-field-scale)=
 ## Task 2 — Field Scale
+Demonstrate at field scale the efficacy of humic acid in  improving crop quality and reducing cost
 
-![Conceptual illustration of Task 2 field-scale validation](_static/img/task2_field.png)
+Image Task2 
 
-### Validate in production
+Standard practice (100% nutrients) vs HA treatment (50% reduced nutrient input) under commercial agricultural conditions. 
+1. Soil health and water dynamics: Soil water content, pre- and post-harvest soil samples to analyze nutrient content, organic matter, and cation-exchange capacity.
+2. Crop health monitoring with UAV: Quantitively assess crop health and powerful visual communication tool)
+3. Nutrient Leaching: Shallow groundwater samples analyze for TN and TP
+4. Crop and economic analysis: Harvest analysis includes crop yield (total marketable fruit weight per acre) and assess crop quality using industry-standard metrics, including fruit size, firmness, nutrient content, and shelf life, calculate the return on investment for farmers
+5. AI-LLM powered decision-support dashboard for Agricultural Stakeholders
 
-**Research question:**  
-Does the nutrient-reduction strategy remain effective under field-scale tomato production while maintaining crop performance and economic feasibility?
 
-**Research process:**  
-**Conventional practice** ↔ **HA + reduced nutrients** → **Water + crop + economic response**
 
-The field experiment at UF/IFAS compares standard nutrient management with HA under reduced nutrient input. Soil and shallow-groundwater observations are combined with UAV hyperspectral imagery, tomato yield and fruit-quality measurements, and farm-level economic analysis.
+## Task 3 — Watershed & Coast Scale 
+Demonstrate at watershed scale the efficacy of HA  in reducing nutrient input to the Gulf water and decreasing of the probability of red tide occurrence
 
-**Core evidence:**  
-soil condition • shallow groundwater • UAV crop health • yield & quality • fertilizer savings • return on investment
+Image Task3
 
----
+Upscale nutrient loads from tasks 1 and 2 to a watershed scale and estimate TN and TP output to the Gulf using process-based surface water models 
+- Meta analysis of HA environmental impacts (reduce N & P leaching, irrigation demand, and pesticide use, and increase C uptake): Leaching reduction as function of soil type, LULC (e.g., farm vs. golf course), HA application
+- Watershed upscaling a sensitivity analysis and Monte Carlo simulation to analyze the reduction of watershed nitrogren and phosphrous loads given humic acid use in rural and urban areas 
 
-(task-3-watershed-coast)=
-## Task 3 — Watershed & Coast
+Use machine learning to estimate the downstream risk to red tide occurrence given reduced nutrient loads with humic acid,
+- HAB risk reduction through agricultural nutrient management using machine learning to assess red tide response to watershed nutrient reduction scenarios: If we applied HA to all agricultural landuse in Peace River Watershed, how much reduction of nitrogren and phosphrous to Gulf Water? (science question)
 
-![Conceptual illustration of Task 3 watershed modeling, red-tide analysis, and decision support](_static/img/task3_modeling.png)
+Showcase the efficacy of humic acid scenario compared to other mitigation scenarios such as septic tank upgrades.
+- Prioritize hotspots and scenario analysis (case study for Peace River watershed and compare with septic tank replacement) and what models (e.g., Geographic modeling, HSPF, WAM) were used (management question)
+- Compare to other best management practices such as septic tanks 
 
-### Scale the environmental impact
-
-**Research question:**  
-If measured nutrient losses decline at the lysimeter and field scales, what could broader adoption mean for Peace River nutrient loads and downstream red-tide risk?
-
-**Research chain:**  
-**3a. WAM watershed scenarios** → **3b. *K. brevis* machine learning** → **3c. AI/LLM decision support**
-
-Qualified results from Tasks 1 and 2 are used to represent HA adoption in the Peace River Watershed Assessment Model. Resulting nutrient-load scenarios are then evaluated with the existing red-tide machine-learning framework, while the decision-support component translates the combined agronomic, economic, watershed, and coastal information into practical guidance.
-
-**Core evidence:**  
-TN & TP load change • sensitivity & uncertainty • bloom probability/frequency/severity • stakeholder-ready guidance
-
----
-
-## Integrated Research Connection
-
-| Research scale | Main question |
-|---|---|
-| Task 1 — Lysimeter | What changes in the root zone? |
-| Task 2 — Field | Does it work at farm scale? |
-| Task 3 — Watershed & Coast | What does it mean for the watershed and coast? |
-
-**Task 1** → **Task 2** → **Task 3**
